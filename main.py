@@ -343,7 +343,7 @@ def submit_score(player_name, score):
         }).encode("utf-8")
 
         req = urllib.request.Request(
-            SCORE_ENDPOINT,
+
             data=data,
             headers={
                 "Content-Type": "application/x-www-form-urlencoded",
