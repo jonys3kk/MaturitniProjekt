@@ -6,8 +6,6 @@ import urllib.request
 import urllib.error
 import urllib.parse
 
-## kam posilat skore
-SCORE_ENDPOINT = "https://silver-pony-91905.zap.cloud/scores.php"
 
 pygame.init()
 WIDTH, HEIGHT = 600, 800
